@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "NIKE F1",
+        "price": 100.99,
+        "image": "image/shoes1.png"
+    },
+    {
+        "id": 2,
+        "name": "NIKE H2",
+        "price": 200.99,
+        "image": "image/shoes2.png"
+    },
+    {
+        "id": 3,
+        "name": "NIKE B3",
+        "price": 175.99,
+        "image": "image/shoes3.png"
+    },
+    {
+        "id": 4,
+        "name": "NIKE G4",
+        "price": 120.99,
+        "image": "image/shoes4.png"
+    },
+    {
+        "id": 5,
+        "name": "NIKE D5",
+        "price": 150.99,
+        "image": "image/shoes5.png"
+    },
+    {
+        "id": 6,
+        "name": "NIKE R6",
+        "price": 220.99,
+        "image": "image/shoes6.png"
+    },
+    {
+        "id": 7,
+        "name": "NIKE T7",
+        "price": 110.99,
+        "image": "image/shoes7.png"
+    },
+    {
+        "id": 8,
+        "name": "NIKE V8",
+        "price": 150.99,
+        "image": "image/shoes8.png"
+    },
+]

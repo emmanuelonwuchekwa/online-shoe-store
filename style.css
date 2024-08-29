@@ -91,6 +91,10 @@ section nav .icon-cart i:hover{
     color: #c72092;
 }
 
+section nav .icon-cart span {
+    color: #c72092;
+}
+
 section .main .main_content{
     display: flex;
     align-items: center;
@@ -321,12 +325,12 @@ body.showCart .container {
 
 }
 
-.cartTab .btn {
+.cartTab .btn1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.cartTab .btn button {
+.cartTab .btn1 button {
     background-color: #c72092;
     border: none;
     font-family: Poppins;
@@ -334,7 +338,7 @@ body.showCart .container {
     cursor: pointer;
 }
 
-.cartTab .btn .close {
+.cartTab .btn1 .close {
     background-color: #aca9ab;
 }
 
@@ -592,6 +596,14 @@ body.showCart .container {
     text-align: justify;
     line-height: 22px;
     margin-top: 15px;
+}
+
+.review .review_box .review_card .comment .review-date {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666; 
+    font-style: italic; /* Optional: makes the date look distinct */
 }
 
 
