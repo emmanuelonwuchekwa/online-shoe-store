@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike - Just Do It</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="paymentModal.css">
     <link rel="shortcut icon" href="image/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -309,7 +310,7 @@
     
         <div class="about" id="About">
             
-            <h1>About<span></span></h1>
+            <h1>About<span>US</span></h1>
     
             <div class="about_main">
                 <div class="about_image">
@@ -677,9 +678,81 @@
         </div>
         <div class="btn1">
             <button class="close">CLOSE</button>
-            <button class="checkOut">CHECK OUT</button>
+            <button id="checkoutBtn" class="checkOut">CHECK OUT</button>
         </div>
     </div>
+
+    <!--Payment Modal-->
+    <div class="payment-container">
+        <button class="close-payment-modal">&times;</button>
+        <form action="">
+            <div class="payment-row">
+                <div class="payment-column">
+                    <h3 class="payment-title">Billing Address</h3>
+                    <div class="payment-input-box">
+                        <span>Full Name:</span>
+                        <input type="text" placeholder="Emmanuel Chibueze">
+                    </div>
+                    <div class="payment-input-box">
+                        <span>Email:</span>
+                        <input type="text" placeholder="example@example.com">
+                    </div>
+                    <div class="payment-input-box">
+                        <span>Address:</span>
+                        <input type="text" placeholder="Road-Street-Locality">
+                    </div>
+                    <div class="payment-input-box">
+                        <span>City:</span>
+                        <input type="text" placeholder="ikeja">
+                    </div>
+                    <div class="payment-flex">
+                        <div class="payment-input-box">
+                            <span>State:</span>
+                            <input type="text" placeholder="Lagos State">
+                        </div>
+                        <div class="payment-input-box">
+                            <span>Postal Code:</span>
+                            <input type="text" placeholder="123 456">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="payment-column">
+                    <h3 class="payment-title">Payment</h3>
+                    <div class="payment-input-box">
+                        <span>Cards Accepted:</span>
+                        <img src="./image/imgcards.png" alt="Cards">
+                    </div>
+                    <div class="payment-input-box">
+                        <span>Name On Card:</span>
+                        <input type="text" placeholder="Mr. Emmanuel Chibueze">
+                    </div>
+                    <div class="payment-input-box">
+                        <span>Debit Card Number:</span>
+                        <input type="number" placeholder="1111 2222 3333 4444">
+                    </div>
+                    <div class="payment-input-box">
+                        <span>Exp Month:</span>
+                        <input type="text" placeholder="August">
+                    </div>
+                    <div class="payment-flex">
+                        <div class="payment-input-box">
+                            <span>Exp year:</span>
+                            <input type="text" placeholder="2026">
+                        </div>
+                        <div class="payment-input-box">
+                            <span>Cvv:</span>
+                            <input type="text" placeholder="123">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="payment-btn">Submit</button>
+        </form>
+    </div>
+
+    <!--Modal Blur Background-->
+    <div class="blur-background"></div>
 
     <!--JavaScript-->
     <script src="script.js"></script>
