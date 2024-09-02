@@ -11,8 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+
     background: linear-gradient(to top, #c72092 , #6c14d0);
+    padding: 30px;
 }
 
 .payment-container form {
@@ -20,6 +21,7 @@
     padding: 40px;
     background: #fff;
     border-radius: 10px;
+    margin-left: -40px;
 }
 
 .payment-row {
