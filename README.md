@@ -16,6 +16,8 @@ The Online Shoe Store is a fully responsive e-commerce web application designed 
 #### Frontend:
 - **HTML5, CSS3, JavaScript**
 
+## Live Demo
+👉 [View Project](https://online-shoe-store-emmanuel.netlify.app)
 
 #### Backend: (still in devevelopment)
 
